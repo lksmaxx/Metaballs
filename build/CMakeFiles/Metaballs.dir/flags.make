@@ -7,11 +7,11 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/lksmaxx/Documents/dev/Metaballs/include -I/home/lksmaxx/Documents/dev/Metaballs/vendor/glfw/include
 
-C_FLAGS = 
+C_FLAGS = -O2 -g -DNDEBUG
 
 CXX_DEFINES = 
 
 CXX_INCLUDES = -I/home/lksmaxx/Documents/dev/Metaballs/include -I/home/lksmaxx/Documents/dev/Metaballs/vendor/glfw/include
 
-CXX_FLAGS = 
+CXX_FLAGS = -O2 -g -DNDEBUG
 

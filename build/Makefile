@@ -261,6 +261,30 @@ src/application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/application.cpp.s
 .PHONY : src/application.cpp.s
 
+src/gl_utils.o: src/gl_utils.cpp.o
+.PHONY : src/gl_utils.o
+
+# target to build an object file
+src/gl_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/gl_utils.cpp.o
+.PHONY : src/gl_utils.cpp.o
+
+src/gl_utils.i: src/gl_utils.cpp.i
+.PHONY : src/gl_utils.i
+
+# target to preprocess a source file
+src/gl_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/gl_utils.cpp.i
+.PHONY : src/gl_utils.cpp.i
+
+src/gl_utils.s: src/gl_utils.cpp.s
+.PHONY : src/gl_utils.s
+
+# target to generate assembly for a file
+src/gl_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/gl_utils.cpp.s
+.PHONY : src/gl_utils.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -285,6 +309,30 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+src/shader.o: src/shader.cpp.o
+.PHONY : src/shader.o
+
+# target to build an object file
+src/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/shader.cpp.o
+.PHONY : src/shader.cpp.o
+
+src/shader.i: src/shader.cpp.i
+.PHONY : src/shader.i
+
+# target to preprocess a source file
+src/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/shader.cpp.i
+.PHONY : src/shader.cpp.i
+
+src/shader.s: src/shader.cpp.s
+.PHONY : src/shader.s
+
+# target to generate assembly for a file
+src/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Metaballs.dir/build.make CMakeFiles/Metaballs.dir/src/shader.cpp.s
+.PHONY : src/shader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -307,9 +355,15 @@ help:
 	@echo "... src/application.o"
 	@echo "... src/application.i"
 	@echo "... src/application.s"
+	@echo "... src/gl_utils.o"
+	@echo "... src/gl_utils.i"
+	@echo "... src/gl_utils.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/shader.o"
+	@echo "... src/shader.i"
+	@echo "... src/shader.s"
 .PHONY : help
 
 

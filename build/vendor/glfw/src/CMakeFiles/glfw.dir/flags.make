@@ -6,7 +6,7 @@ C_DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
 
 C_INCLUDES = -I/home/lksmaxx/Documents/dev/Metaballs/vendor/glfw/include -I/home/lksmaxx/Documents/dev/Metaballs/vendor/glfw/src -I/home/lksmaxx/Documents/dev/Metaballs/build/vendor/glfw/src
 
-C_FLAGS = -fPIC -Wall -std=c99
+C_FLAGS = -O2 -g -DNDEBUG -fPIC -Wall -std=c99
 
 # Custom flags: vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

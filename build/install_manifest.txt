@@ -4,6 +4,6 @@
 /home/lksmaxx/Documents/dev/Metaballs/_install/lib/cmake/glfw3/glfw3Config.cmake
 /home/lksmaxx/Documents/dev/Metaballs/_install/lib/cmake/glfw3/glfw3ConfigVersion.cmake
 /home/lksmaxx/Documents/dev/Metaballs/_install/lib/cmake/glfw3/glfw3Targets.cmake
-/home/lksmaxx/Documents/dev/Metaballs/_install/lib/cmake/glfw3/glfw3Targets-noconfig.cmake
+/home/lksmaxx/Documents/dev/Metaballs/_install/lib/cmake/glfw3/glfw3Targets-relwithdebinfo.cmake
 /home/lksmaxx/Documents/dev/Metaballs/_install/lib/pkgconfig/glfw3.pc
 /home/lksmaxx/Documents/dev/Metaballs/_install/Metaballs

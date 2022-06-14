@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lksmaxx/Documents/dev/Metaballs/src/glad.c" "CMakeFiles/Metaballs.dir/src/glad.c.o" "gcc" "CMakeFiles/Metaballs.dir/src/glad.c.o.d"
   "/home/lksmaxx/Documents/dev/Metaballs/main.cpp" "CMakeFiles/Metaballs.dir/main.cpp.o" "gcc" "CMakeFiles/Metaballs.dir/main.cpp.o.d"
   "/home/lksmaxx/Documents/dev/Metaballs/src/application.cpp" "CMakeFiles/Metaballs.dir/src/application.cpp.o" "gcc" "CMakeFiles/Metaballs.dir/src/application.cpp.o.d"
+  "/home/lksmaxx/Documents/dev/Metaballs/src/gl_utils.cpp" "CMakeFiles/Metaballs.dir/src/gl_utils.cpp.o" "gcc" "CMakeFiles/Metaballs.dir/src/gl_utils.cpp.o.d"
+  "/home/lksmaxx/Documents/dev/Metaballs/src/shader.cpp" "CMakeFiles/Metaballs.dir/src/shader.cpp.o" "gcc" "CMakeFiles/Metaballs.dir/src/shader.cpp.o.d"
   )
 
 # Targets to which this target links.
